@@ -1,12 +1,12 @@
 # Ex-07-Feature-Selection
-# AIM
+## AIM
 To Perform the various feature selection techniques on a dataset and save the data to a file. 
 
-# Explanation
+## Explanation
 Feature selection is to find the best set of features that allows one to build useful models.
 Selecting the best features helps the model to perform well. 
 
-# ALGORITHM
+## ALGORITHM
 ### STEP 1
 Read the given Data
 ### STEP 2
@@ -18,7 +18,7 @@ Save the data to the file
 
 
 
-# CODE
+## CODE
 ```
 Developed By: Sowmiya N
 Reg.No: 212221230106
@@ -134,7 +134,7 @@ matplotlib.rcParams['figure.figsize'] = (8.0, 10.0)
 imp_coef.plot(kind = "barh")
 plt.title("Feature importance using Lasso Model")
 ```
-# OUPUT
+## OUPUT
 ```
 Feature selection can be done in multiple ways but there are broadly 3 categories of it:
 1. Filter Method
@@ -175,5 +175,5 @@ Embedded methods are iterative in a sense that takes care of each iteration of t
 ![op](./bos/bos12.png)
 ![op](./bos/bos13.png)
 
-# RESULT:
+## RESULT:
 Various feature selection techniques have been performed on a given dataset successfully.
